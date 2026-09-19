@@ -5,7 +5,7 @@ from urllib.parse import urljoin, urlparse, unquote
 
 ROOT = Path(__file__).parent / 'docs'
 ORIGIN = 'https://example.invalid'
-BASE_PATH = '/sreg-project/'
+BASE_PATH = '/'
 
 class Page(HTMLParser):
     def __init__(self, text):

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://jutrifonov.github.io/sreg-project/</loc>
+        <loc>https://sreg-project.github.io/</loc>
       </url>
       <url>
-        <loc>https://jutrifonov.github.io/sreg-project/get-started/</loc>
+        <loc>https://sreg-project.github.io/get-started/</loc>
       </url>
       <url>
-        <loc>https://jutrifonov.github.io/sreg-project/r-guide/</loc>
+        <loc>https://sreg-project.github.io/r-guide/</loc>
       </url>
       <url>
-        <loc>https://jutrifonov.github.io/sreg-project/empirical-example/</loc>
+        <loc>https://sreg-project.github.io/empirical-example/</loc>
       </url>
 </urlset>

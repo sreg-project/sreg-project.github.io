@@ -1,6 +1,6 @@
 [project]
 site_name = "sreg"
-site_url = "https://jutrifonov.github.io/sreg-project/"
+site_url = "https://sreg-project.github.io/"
 site_description = "Estimation and inference for stratified randomized experiments. Implementations in R, Stata, and Python."
 site_dir = "docs"
 docs_dir = "source"

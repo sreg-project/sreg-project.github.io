@@ -1,6 +1,6 @@
 # sreg project website
 
-Website: https://jutrifonov.github.io/sreg-project/
+Website: https://sreg-project.github.io/
 
 Documentation for estimation and inference in stratified randomized experiments, with R, Stata, and Python implementations.
 
