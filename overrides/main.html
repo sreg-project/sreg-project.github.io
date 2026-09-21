@@ -8,7 +8,7 @@
   <meta name="description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
   {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
   <link rel="icon" href="{{ 'assets/favicon.svg' | url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ 'assets/site.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/site.css' | url }}?v=b19ca7cb645c">
   <script src="{{ 'assets/site.js' | url }}" defer></script>
 </head>
 <body class="{% if is_home %}home{% else %}documentation{% endif %}">
