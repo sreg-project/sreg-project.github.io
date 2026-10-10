@@ -70,12 +70,12 @@
 <p>The example below uses the large-strata estimator. Feature availability may differ between the CRAN release and the development version; record the installed version when reporting an empirical analysis.</p>
 </div>
 <div data-lang="stata" hidden="hidden">
-<p>The Stata implementation requires <strong>Stata 14.2 or newer</strong>. Download the <a href="https://github.com/jutrifonov/sreg-stata">Stata repository</a> using <strong>Code → Download ZIP</strong>, and unzip it. Access to the repository is required for this installation route.</p>
-<p>Replace the example path with the absolute path to the extracted folder:</p>
-<div class="highlight"><pre><span></span><code><span class="k">net</span> install sreg, from(<span class="s">"/path/to/sreg-stata"</span>)<span class="k"> replace</span>
+<p>The Stata implementation requires <strong>Stata 14.2 or newer</strong>. Install the released package from SSC and open the command documentation:</p>
+<div class="highlight"><pre><span></span><code><span class="k">ssc</span> install sreg,<span class="k"> replace</span>
 <span class="k">help</span> sreg
 </code></pre></div>
-<p>The package runs natively in Stata and Mata, without an R or Python dependency. These instructions refer to <code>sreg-stata</code>, the native implementation.</p>
+<p>The <code>replace</code> option updates an existing installation. The package runs natively in Stata and Mata, without an R or Python dependency. The official <a href="https://ideas.repec.org/c/boc/bocode/s459906.html">SSC entry on IDEAS/RePEc</a> provides package information, citation details, and downloadable files.</p>
+<p>To download the accompanying dataset and example do-file into your current working folder, use <code>ssc install sreg, all replace</code>. Choose a writable folder before running this command.</p>
 </div>
 <div data-lang="python" hidden="hidden">
 <p>The Python implementation requires <strong>Python 3.9 or newer</strong>. Install the current source from the <a href="https://github.com/jutrifonov/sreg-python">Python repository</a> in your Python environment. This command requires Git and access to the repository:</p>
@@ -291,7 +291,8 @@ sregplot
 <ul>
 <li><strong>Command help:</strong> run <code>help sreg</code>, <code>help sreg_rgen</code>, and <code>help sregplot</code>.</li>
 <li><strong>Replication examples:</strong> open <a href="https://github.com/jutrifonov/sreg-stata/blob/main/examples/try_sreg.do"><code>examples/try_sreg.do</code></a>.</li>
-<li><strong>Source and installation updates:</strong> visit the <a href="https://github.com/jutrifonov/sreg-stata">Stata repository</a>.</li>
+<li><strong>Release information and citation:</strong> visit the <a href="https://ideas.repec.org/c/boc/bocode/s459906.html">SSC entry on IDEAS/RePEc</a>.</li>
+<li><strong>Development source:</strong> visit the <a href="https://github.com/jutrifonov/sreg-stata">Stata repository</a>.</li>
 </ul>
 </div>
 <div data-lang="python" hidden="hidden">
@@ -309,7 +310,8 @@ sregplot
 </code></pre></div>
 </div>
 <div data-lang="stata" hidden="hidden">
-<p>Record the Stata package version used in your analysis and consult the authorship and references in the <a href="https://github.com/jutrifonov/sreg-stata#authors">Stata README</a>.</p>
+<p>Juri Trifonov, Yuehao Bai, Azeem Shaikh, and Max Tabord-Meehan (2026). <a href="https://ideas.repec.org/c/boc/bocode/s459906.html">“SREG: Stata module to provide ATE estimation and inference in stratified randomized experiments.”</a> <em>Statistical Software Components</em>, S459906, Boston College Department of Economics.</p>
+<p>Record the installed package version alongside this citation. The RePEc handle is <code>RePEc:boc:bocode:s459906</code>.</p>
 </div>
 <div data-lang="python" hidden="hidden">
 <p>Use the repository's <a href="https://github.com/jutrifonov/sreg-python/blob/main/CITATION.cff">citation metadata</a> and record the version used in your analysis.</p>

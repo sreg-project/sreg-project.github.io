@@ -104,8 +104,9 @@
 </code></pre></div>
 </div>
 <div data-lang="stata" hidden="hidden">
-<p>Replace the path with the extracted repository location. Save any current dataset before using <code>clear</code>.</p>
-<div class="highlight"><pre><span></span><code><span class="k">use</span> <span class="s">"/path/to/sreg-stata/data/sreg_aejapp.dta"</span>,<span class="k"> clear</span>
+<p>Download the example files from SSC into a writable working folder. Save any current dataset before using <code>clear</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="k">ssc</span> install sreg, all<span class="k"> replace</span>
+<span class="k">use</span> <span class="s">"sreg_aejapp.dta"</span>,<span class="k"> clear</span>
 <span class="k">generate</span> byte D = <span class="nf">cond</span>(treatment <span class="o">==</span> <span class="m">3</span>, <span class="m">0</span>, treatment)
 <span class="k">tabulate</span> D class_level
 </code></pre></div>

@@ -49,10 +49,11 @@ table(D, S)
 </div>
 <div data-lang="stata" hidden markdown="1">
 
-Replace the path with the extracted repository location. Save any current dataset before using `clear`.
+Download the example files from SSC into a writable working folder. Save any current dataset before using `clear`.
 
 ```stata
-use "/path/to/sreg-stata/data/sreg_aejapp.dta", clear
+ssc install sreg, all replace
+use "sreg_aejapp.dta", clear
 generate byte D = cond(treatment == 3, 0, treatment)
 tabulate D class_level
 ```
